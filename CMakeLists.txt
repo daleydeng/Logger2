@@ -45,3 +45,4 @@ target_link_libraries(Logger2
                       ${OPENNI2_LIBRARY}
                       ${Qt5Widgets_LIBRARIES}
                       )
+install(TARGETS Logger2 RUNTIME DESTINATION bin)
