@@ -36,7 +36,7 @@
 #include <boost/date_time/posix_time/posix_time_types.hpp>
 #include <boost/thread/condition_variable.hpp>
 
-#include "OpenNI2/OpenNI2Interface.h"
+#include "OpenNI2Interface.h"
 #include "MemoryBuffer.h"
 #include "TcpHandler.h"
 #endif

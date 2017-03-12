@@ -5,8 +5,8 @@
  *      Author: thomas
  */
 
-#include <OpenNI.h>
-#include <PS1080.h>
+#include <OpenNI2/OpenNI.h>
+//#include <PS1080.h>
 #include <string>
 #include <iostream>
 #include <algorithm>
@@ -17,7 +17,7 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/date_time/posix_time/posix_time_types.hpp>
 
-#include "../ThreadMutexObject.h"
+#include "ThreadMutexObject.h"
 
 #ifndef OPENNI2INTERFACE_H_
 #define OPENNI2INTERFACE_H_
